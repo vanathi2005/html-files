@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>animation</title>
+    <style>
+#borderimg1 { 
+  border: 10px solid transparent;
+  padding: 15px;
+  border-image: url(green.jpg);
+  border-image-repeat: round;
+  border-image-slice: 30;
+  border-image-width: 10px;    
+}
+ h1{
+  width: 130px;
+  height: 50px;
+  background: rgb(15, 222, 222);
+  position: relative;
+  animation: mymove 5s infinite;
+  animation-delay: 2s;}
+  @keyframes head{
+            0%{
+                background-color:rgb(184, 122, 242);
+                color: cadetblue;
+            }
+            50%{
+                background-color: beige;
+                color:rgb(103, 228, 234);
+            }
+        }
+        p{  font-weight: 900;
+            font-family: Arial, Helvetica, sans-serif;
+            font-style: oblique;
+            color:black,rgb(3, 246, 100);
+            animation-name: head;
+            animation-duration: 5s;
+            animation-iteration-count: 10;
+        }
+    #amigoss{
+        width: 2000px;
+        height:2000px;
+  position: relative;
+  animation: mymove 5s infinite;
+  animation-delay: 2s;
+    }
+
+    @keyframes mymove {
+  from {left: 0px;}
+  to {left: 200px;}
+}
+
+    </style>
+</head>
+<body>
+    <h1>amingoss</h1>
+
+
+<p id="borderimg1">SUMAN,SWE,VANATHI,SHRUTHS,THIRU</p>
+<div id="amigoss"> 
+    <img src="IMG_4797.JPG" width="900"height="400" alt="dogiess";"background-color: aquamarine";/>
+</div>
+    
+</body>
+</html>
+       
+        
+    
